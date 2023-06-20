@@ -1,18 +1,19 @@
-public class jenkinsPush{
+public class Gitpush {
 
-public static void main(String[] args) {
-		
-			String originalstr ="PALINDROME";
-			String REVERSEstr =" ";
-			
-			for(int i=0;i<originalstr.length();i++)
-			{
-				
-				REVERSEstr=originalstr.charAt(i) + REVERSEstr;
+	public static void main(String[] args) {
+
+
+	int j=0;
+	System.out.println("1");
+
+		for (int i = 1; i <=5; i++) {
+			for ( j = 0; j < i; j++) {
+
+				System.out.print(i);
 			}
 			
-		System.out.println(REVERSEstr);
+			System.out.println(j);
+		}
+
 	}
-
 }
-
